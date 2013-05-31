@@ -1,0 +1,15 @@
+!!! 5
+%html{lang: "en"}
+  
+  %head
+
+    %meta{charset: "utf-8"}
+    %meta{content: "IE=edge,chrome=1", http: {equiv: "X-UA-Compatible"}}
+    
+    %title= @title || "Refresh Road Trip"
+    
+    %link(href="assets/css/main.css" rel="stylesheet")
+    %script(src="assets/js/main.js")
+  
+  %body(class="#{page_classes}")
+    = yield
