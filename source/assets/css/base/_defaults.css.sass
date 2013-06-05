@@ -35,19 +35,23 @@ audio:not([controls])
 // ==========================================================================
 // Base
 
+*,
+*:before,
+*:after
+  +box-sizing(border-box)
+
 html
   font-size: 62.5%
   -ms-text-size-adjust: 62.5%
   -webkit-text-size-adjust: 62.5%
 
 html,
-button,
-input,
-select,
-textarea
+button
   font-family: 'GibsonLightRegular', sans-serif
+  line-height: 1.4
+  text-rendering: optimizelegibility
 
 body
-  background: #efeff0
-  color: #2b2a30
+  background: $lighter-grey
+  color: $black
   margin: 0

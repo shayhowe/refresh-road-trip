@@ -4,92 +4,67 @@
 
 // Typography
 
-h1
-  font-size: 2em
-  margin: 0.67em 0
+h1, h2, h3, h4, h5, h6, p
+  margin: 0
 
-h2
-  font-size: 1.5em
-  margin: 0.83em 0
 
-h3
-  font-size: 1.17em
-  margin: 1em 0
+h1,
+.h-headline
+  color: $grey
+  font-size: 1.4em
+  letter-spacing: 1px
+  text-align: center
+  text-transform: uppercase
 
-h4
-  font-size: 1em
-  margin: 1.33em 0
+h2,
+.h-subheadline
+  color: $light-green
+  font-size: 2.4em
 
-h5
-  font-size: 0.83em
-  margin: 1.67em 0
+h3,
+.h-byline
+  font-size: 2.1em
 
-h6
-  font-size: 0.67em
-  margin: 2.33em 0
+h4,
+.h-standfirst
+  font-size: 1.8em
 
-abbr[title]
-  border-bottom: 1px dotted
+h5,
+.h-related
+  font-size: 1.6em
 
-b,
+h6,
+.h-promo
+  color: $grey
+  font-size: 1.6em
+
+p
+  font-size: 1.6em
+
 strong
-  font-weight: bold
+  font-family: 'GibsonRegular'
+  font-weight: normal
 
-blockquote
-  margin: 1em 40px
-
-dfn
-  font-style: italic
-
-hr
-  -moz-box-sizing: content-box
-  box-sizing: content-box
-  height: 0
-
-mark
-  background: #ff0
-  color: #000
-
-p,
-pre
-  margin: 1em 0
-
-code,
-kbd,
-pre,
-samp
-  font-family: monospace, serif
-  _font-family: 'courier new', monospace
-  font-size: 1em
-
-pre
-  white-space: pre
-  white-space: pre-wrap
-  word-wrap: break-word
-
-q
-  quotes: none
-
-q:before,
-q:after
-  content: ''
-  content: none
+address
+  font-style: normal
 
 small
   font-size: 80%
 
 sub,
 sup
-  font-size: 75%
+  font-family: 'GibsonRegular'
+  font-size: 60%
   line-height: 0
   position: relative
   vertical-align: baseline
 
 sup
-  top: -0.5em
+  top: -0.75em
 
 sub
   bottom: -0.25em
+
 
 // ==========================================================================
 // Web Fonts
