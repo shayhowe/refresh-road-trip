@@ -17,20 +17,6 @@ section,
 summary
   display: block
 
-audio,
-canvas,
-video
-  display: inline-block
-  *display: inline
-  *zoom: 1
-
-audio:not([controls])
-  display: none
-  height: 0
-
-[hidden]
-  display: none
-
 
 // ==========================================================================
 // Base
@@ -45,13 +31,12 @@ html
   -ms-text-size-adjust: 62.5%
   -webkit-text-size-adjust: 62.5%
 
-html,
-button
-  font-family: 'GibsonLightRegular', sans-serif
+html
+  @extend %font-light
   line-height: 1.4
   text-rendering: optimizelegibility
 
 body
   background: $lighter-grey
-  color: $black
+  @extend %color-grey
   margin: 0

@@ -10,50 +10,63 @@ h1, h2, h3, h4, h5, h6, p
 
 h1,
 .h-headline
-  color: $grey
-  font-size: 1.4em
-  letter-spacing: 1px
+  @extend %color-green
+  @extend %font-regular
+  font-size: 2.4em
+  letter-spacing: 2px
+  margin-bottom: .416666667em
   text-align: center
   text-transform: uppercase
 
 h2,
 .h-subheadline
-  color: $light-green
+  @extend %color-light-green
   font-size: 2.4em
 
 h3,
 .h-byline
+  @extend %color-light-green
   font-size: 2.1em
 
 h4,
 .h-standfirst
+  @extend %color-black
+  @extend %font-regular
   font-size: 1.8em
+  margin-bottom: 1.111111111em
 
 h5,
 .h-related
+  @extend %color-light-green
+  @extend %font-regular
   font-size: 1.6em
 
 h6,
 .h-promo
-  color: $grey
   font-size: 1.6em
+
+.nutshell
+  border-bottom: 1px solid $light-grey
+  font-size: 1.8em
+  margin-bottom: 1.666666667em
+  padding-bottom: 1.666666667em
 
 p
   font-size: 1.6em
+  margin-bottom: 1.25em
 
 strong
-  font-family: 'GibsonRegular'
-  font-weight: normal
+  @extend %font-regular
 
 address
   font-style: normal
 
 small
-  font-size: 80%
+  font-size: 1.4em
 
 sub,
 sup
-  font-family: 'GibsonRegular'
+  @extend %font-regular
   font-size: 60%
   line-height: 0
   position: relative
@@ -68,13 +81,6 @@ sub
 
 // ==========================================================================
 // Web Fonts
-
-@font-face
-  font-family: 'RefreshMonoBold'
-  src: url('../fonts/refreshmono-bold-webfont.eot')
-  src: url('../fonts/refreshmono-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/refreshmono-bold-webfont.woff') format('woff'), url('../fonts/refreshmono-bold-webfont.ttf') format('truetype'), url('../fonts/refreshmono-bold-webfont.svg#RefreshMonoBold') format('svg')
-  font-weight: normal
-  font-style: normal
 
 @font-face
   font-family: 'GibsonRegular'

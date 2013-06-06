@@ -2,10 +2,7 @@
 // Events
 
 .events
-  border-top: 1px solid $light-grey
-  list-style: none
-  margin-top: 3em
-  padding-top: 3em
+  margin-bottom: 4em
 
 .event
   border-bottom: 1px solid $light-grey
@@ -18,6 +15,7 @@
   float: left
 
 .event-title
+  @extend .h-standfirst
   width: 40%
 
 .event-date,
@@ -25,4 +23,11 @@
   width: 30%
 
 .event-date
-  padding: 0 15px
+  padding: 0 1em
+
+.event-location a
+  @extend %color-grey
+  @extend %font-light
+  
+  &:hover
+    @extend %color-blue
