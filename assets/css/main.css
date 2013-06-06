@@ -146,51 +146,52 @@ h1,
 /* line 21, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h2,
 .h-subheadline {
-  font-size: 2.4em; }
+  font-size: 2.4em;
+  font-weight: normal; }
 
-/* line 26, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 27, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h3,
 .h-byline {
   font-size: 2.1em; }
 
-/* line 31, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 32, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h4,
 .h-standfirst,
 .event-title {
   font-size: 1.8em;
   margin-bottom: 1.11111em; }
 
-/* line 38, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 39, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h5,
 .h-related {
   font-size: 1.6em; }
 
-/* line 44, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 45, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h6,
 .h-promo {
   font-size: 1.6em; }
 
-/* line 48, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 49, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 .nutshell {
   border-bottom: 1px solid #d7d9db;
   font-size: 1.8em;
   margin-bottom: 1.66667em;
   padding-bottom: 1.66667em; }
 
-/* line 54, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 55, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 p {
   font-size: 1.6em;
   margin-bottom: 1.25em; }
 
-/* line 61, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 62, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 address {
   font-style: normal; }
 
-/* line 64, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 65, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 small {
   font-size: 1.4em; }
 
-/* line 67, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 68, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sub,
 sup {
   font-size: 60%;
@@ -198,11 +199,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 75, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 76, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sup {
   top: -0.75em; }
 
-/* line 78, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 79, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sub {
   bottom: -0.25em; }
 
