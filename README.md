@@ -18,3 +18,7 @@ The server is now running at [http://localhost:4567](http://localhost:4567/).
 #### Compiling Middleman
 
 - `middleman build`
+
+#### Publishing
+
+- `rake publish`
