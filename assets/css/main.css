@@ -1,34 +1,34 @@
-/* line 18, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 18, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 h4,
 .h-standfirst,
 .event-title {
   color: #2b2a30; }
 
-/* line 21, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 21, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 body, .event-location a {
   color: #5a595c; }
 
-/* line 24, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 24, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 h1,
 .h-headline {
   color: #00682e; }
 
-/* line 27, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 27, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 h2,
 .h-subheadline, h3,
 .h-byline, h5,
 .h-related {
   color: #39b54a; }
 
-/* line 30, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 30, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 a, .event-location a:hover {
   color: #00aed6; }
 
-/* line 42, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 42, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 html, .event-location a {
   font-family: "GibsonLightRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 45, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_variables.css.sass */
+/* line 45, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_variables.css.sass */
 a, h1,
 .h-headline, h4,
 .h-standfirst,
@@ -38,7 +38,7 @@ sup, .speaker h2 {
   font-family: "GibsonRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal; }
 
-/* line 6, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
+/* line 6, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
 article,
 aside,
 details,
@@ -53,7 +53,7 @@ section,
 summary {
   display: block; }
 
-/* line 24, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
+/* line 24, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
 *,
 *:before,
 *:after {
@@ -61,80 +61,80 @@ summary {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 29, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
+/* line 29, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
 html {
   font-size: 62.5%;
   -ms-text-size-adjust: 62.5%;
   -webkit-text-size-adjust: 62.5%; }
 
-/* line 34, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
+/* line 34, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
 html {
   line-height: 1.4;
   text-rendering: optimizelegibility; }
 
-/* line 39, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
+/* line 39, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_defaults.css.sass */
 body {
   background: #efeff0;
   margin: 0; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_layout.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_layout.css.sass */
 .container {
   max-width: 760px;
   margin: 0 auto;
   padding: 0 5.26316%; }
 
-/* line 11, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_layout.css.sass */
+/* line 11, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_layout.css.sass */
 .group {
   *zoom: 1; }
-  /* line 13, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_layout.css.sass */
+  /* line 13, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_layout.css.sass */
   .group:before, .group:after {
     content: "";
     display: table; }
-  /* line 17, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_layout.css.sass */
+  /* line 17, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_layout.css.sass */
   .group:after {
     clear: both; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_links.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_links.css.sass */
 a {
   text-decoration: none; }
-  /* line 9, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_links.css.sass */
+  /* line 9, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_links.css.sass */
   a:hover {
     text-decoration: underline; }
-  /* line 12, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_links.css.sass */
+  /* line 12, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_links.css.sass */
   a:focus {
     outline: thin dotted; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_lists.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_lists.css.sass */
 ol,
 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_media.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_media.css.sass */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic; }
 
-/* line 8, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_media.css.sass */
+/* line 8, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_media.css.sass */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 15, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_media.css.sass */
+/* line 15, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_media.css.sass */
 figure {
   margin: 0; }
 
-/* line 22, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_media.css.sass */
+/* line 22, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_media.css.sass */
 .ir {
   color: transparent;
   font: 0/0 a;
   text-shadow: none; }
 
-/* line 7, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 7, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
-/* line 11, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 11, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h1,
 .h-headline {
   font-size: 2.4em;
@@ -143,55 +143,55 @@ h1,
   text-align: center;
   text-transform: uppercase; }
 
-/* line 21, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 21, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h2,
 .h-subheadline {
   font-size: 2.4em;
   font-weight: normal; }
 
-/* line 27, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 27, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h3,
 .h-byline {
   font-size: 2.1em; }
 
-/* line 32, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 32, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h4,
 .h-standfirst,
 .event-title {
   font-size: 1.8em;
   margin-bottom: 1.11111em; }
 
-/* line 39, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 39, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h5,
 .h-related {
   font-size: 1.6em; }
 
-/* line 45, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 45, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 h6,
 .h-promo {
   font-size: 1.6em; }
 
-/* line 49, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 49, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 .nutshell {
   border-bottom: 1px solid #d7d9db;
   font-size: 1.8em;
   margin-bottom: 1.66667em;
   padding-bottom: 1.66667em; }
 
-/* line 55, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 55, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 p {
   font-size: 1.6em;
   margin-bottom: 1.25em; }
 
-/* line 62, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 62, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 address {
   font-style: normal; }
 
-/* line 65, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 65, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 small {
   font-size: 1.4em; }
 
-/* line 68, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 68, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sub,
 sup {
   font-size: 60%;
@@ -199,11 +199,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 76, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 76, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sup {
   top: -0.75em; }
 
-/* line 79, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 79, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sub {
   bottom: -0.25em; }
 
@@ -221,28 +221,28 @@ sub {
   font-weight: normal;
   font-style: normal; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_footer.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_footer.css.sass */
 .primary-footer {
   margin: 4em 0;
   text-align: center; }
 
-/* line 1, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_header.css.sass */
+/* line 1, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_header.css.sass */
 .primary-header {
   text-align: center; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_header.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_header.css.sass */
 .primary-logo {
   margin: 4em auto 2em auto;
   min-width: 240px;
   width: 50%; }
 
-/* line 9, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_header.css.sass */
+/* line 9, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_header.css.sass */
 .primary-logo-stage {
   height: 0;
   padding-bottom: 32.42392%;
   position: relative;
   width: 100%; }
-  /* line 14, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_header.css.sass */
+  /* line 14, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_header.css.sass */
   .primary-logo-stage .ir {
     background: url("/assets/img/logo.png") 0 0 no-repeat;
     background-size: contain;
@@ -251,46 +251,46 @@ sub {
     top: 0;
     width: 100%; }
 
-/* line 22, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_header.css.sass */
+/* line 22, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_header.css.sass */
 .primary-subheadline {
   margin-bottom: 1.66667em; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_events.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_events.css.sass */
 .events {
   margin-bottom: 4em; }
 
-/* line 7, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_events.css.sass */
+/* line 7, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_events.css.sass */
 .event {
   border-bottom: 1px solid #d7d9db;
   margin-bottom: 3em;
   padding-bottom: 3em; }
 
-/* line 12, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_events.css.sass */
+/* line 12, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_events.css.sass */
 .event-title,
 .event-date,
 .event-location {
   float: left; }
 
-/* line 17, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_events.css.sass */
+/* line 17, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_events.css.sass */
 .event-title {
   width: 40%; }
 
-/* line 21, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_events.css.sass */
+/* line 21, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_events.css.sass */
 .event-date,
 .event-location {
   width: 30%; }
 
-/* line 25, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_events.css.sass */
+/* line 25, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_events.css.sass */
 .event-date {
   padding: 0 1em; }
 
-/* line 4, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
 .speaker {
   border-bottom: 1px solid #d7d9db;
   margin-bottom: 3em;
   padding-bottom: 1em; }
 
-/* line 12, /Users/jon/Code/_projects/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
+/* line 12, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
 .speaker-img {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
