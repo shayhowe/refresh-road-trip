@@ -95,6 +95,12 @@ body {
   .group:after {
     clear: both; }
 
+/* line 22, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_layout.css.sass */
+.break {
+  border-bottom: 1px solid #d7d9db;
+  margin-bottom: 3em;
+  padding-bottom: 2em; }
+
 /* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_links.css.sass */
 a {
   text-decoration: none; }
