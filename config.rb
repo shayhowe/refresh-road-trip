@@ -48,6 +48,7 @@
 # end
 
 activate :livereload
+activate :directory_indexes
 
 set :css_dir, 'assets/css'
 set :images_dir, 'assets/img'
