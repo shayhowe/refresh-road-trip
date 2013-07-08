@@ -186,19 +186,24 @@ h6,
   padding-bottom: 1.66667em; }
 
 /* line 55, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+.nutshell-alt {
+  font-size: 1.8em;
+  margin-bottom: 1.66667em; }
+
+/* line 59, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 p {
   font-size: 1.6em;
   margin-bottom: 1.25em; }
 
-/* line 62, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 66, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 address {
   font-style: normal; }
 
-/* line 65, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 69, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 small {
   font-size: 1.4em; }
 
-/* line 68, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 72, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sub,
 sup {
   font-size: 60%;
@@ -206,11 +211,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 76, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 80, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sup {
   top: -0.75em; }
 
-/* line 79, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
+/* line 83, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/base/_typography.css.sass */
 sub {
   bottom: -0.25em; }
 
@@ -230,7 +235,7 @@ sub {
 
 /* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_footer.css.sass */
 .primary-footer {
-  margin: 4em 0;
+  margin-bottom: 4em;
   text-align: center; }
 
 /* line 1, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_header.css.sass */
@@ -294,7 +299,7 @@ sub {
 /* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
 .speaker {
   border-bottom: 1px solid #d7d9db;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
   padding-bottom: 1em; }
 
 /* line 12, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
@@ -308,3 +313,8 @@ sub {
   margin: 0 0 3.2% 3.2%;
   min-width: 100px;
   width: 20%; }
+
+/* line 4, /Users/shayhowe/Documents/Work/Repositories/refresh-road-trip/source/assets/css/modules/_updates.css.sass */
+.twitter-timeline {
+  margin-bottom: 4em;
+  width: 100%; }
