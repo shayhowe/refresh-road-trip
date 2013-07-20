@@ -235,7 +235,7 @@ sub {
 
 /* line 4, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_footer.css.sass */
 .primary-footer {
-  margin-bottom: 4em;
+  margin: 4em 0;
   text-align: center; }
 
 /* line 1, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_header.css.sass */
@@ -313,6 +313,22 @@ sub {
   margin: 0 0 3.2% 3.2%;
   min-width: 100px;
   width: 20%; }
+
+/* line 4, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+.sponsors {
+  border-bottom: 1px solid #d7d9db;
+  border-top: 1px solid #d7d9db;
+  padding: 4em 0 1em 0; }
+  /* line 9, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+  .sponsors li {
+    margin-bottom: 3em;
+    text-align: center; }
+  /* line 13, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+  .sponsors img {
+    width: 50%; }
+  /* line 16, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+  .sponsors .sponsor-belly {
+    width: 46%; }
 
 /* line 4, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_updates.css.sass */
 .twitter-timeline {
