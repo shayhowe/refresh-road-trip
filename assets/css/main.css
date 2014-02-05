@@ -34,7 +34,8 @@ a, h1,
 .h-standfirst,
 .event-title, h5,
 .h-related, strong, sub,
-sup, .speaker h2 {
+sup, .speaker h2,
+.speaker-alt h2 {
   font-family: "GibsonRegular", Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal; }
 
@@ -297,12 +298,17 @@ sub {
   padding: 0 1em; }
 
 /* line 4, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
+.speaker,
+.speaker-alt {
+  padding-bottom: 1em; }
+
+/* line 11, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
 .speaker {
   border-bottom: 1px solid #d7d9db;
   margin-bottom: 4em;
   padding-bottom: 1em; }
 
-/* line 12, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
+/* line 17, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_speakers.css.sass */
 .speaker-img {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
