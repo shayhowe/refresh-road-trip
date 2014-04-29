@@ -327,12 +327,18 @@ sub {
   padding: 4em 0 1em 0; }
   /* line 9, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
   .sponsors li {
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     text-align: center; }
-  /* line 13, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+    /* line 13, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+    .sponsors li:last-child {
+      margin-bottom: 3em; }
+  /* line 16, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
   .sponsors img {
     width: 50%; }
-  /* line 16, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+  /* line 19, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
+  .sponsors .sponsor-agency-firebox {
+    width: 40%; }
+  /* line 22, /Users/shayhowe/Documents/Repositories/shayhowe/refresh-road-trip/source/assets/css/modules/_sponsors.css.sass */
   .sponsors .sponsor-webvisions {
     width: 30%; }
 
